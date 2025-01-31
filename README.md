@@ -39,7 +39,7 @@ The project consists of three main components:
 
 ```
 .
-├── robot_env.py      # Main environment implementation
+    robot_env.py      # Move this file, into pybullet_env folder
 ├── robot_train.py    # Training script using PPO
 ├── robot_evaluate.py # Evaluation and visualization script
 └── urdf/
@@ -78,8 +78,4 @@ To evaluate a trained model:
 python robot_evaluate.py
 ```
 
-This will:
-- Load the trained model
-- Run a simulation with visualization
-- Record joint positions over time
-- Optionally save the data to CSV for analysis
+
