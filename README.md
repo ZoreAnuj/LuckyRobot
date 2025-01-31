@@ -78,4 +78,6 @@ To evaluate a trained model:
 python robot_evaluate.py
 ```
 
+![Robot Joint Trajectories ](http://url/to/img.png)
+
 
